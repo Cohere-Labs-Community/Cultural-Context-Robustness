@@ -1,0 +1,16 @@
+\begin{table}[t]
+\caption{Macro F1 (\%) and per-country accuracy (\%) by provider. Provider family is the clearest aggregate axis, but later sections show that clean accuracy and robustness to perturbations are distinct. The Qwen aggregate includes Qwen3.5 checkpoints at 0.8B, 2B, and 9B parameters; the Gemma aggregate includes Gemma-4-31B checkpoints.}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrr}
+\toprule
+Provider & Macro F1 & India & Turkey & Vietnam \\
+\midrule
+Google Gemma & 57.3 & 55.5 & 60.9 & 62.0 \\
+Cohere & 52.1 & 51.9 & 55.9 & 59.7 \\
+Qwen & 48.7 & 51.6 & 54.8 & 55.5 \\
+\bottomrule
+\end{tabular}
+\label{tab:provider}
+\end{table}

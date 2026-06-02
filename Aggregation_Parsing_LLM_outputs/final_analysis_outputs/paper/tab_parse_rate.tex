@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llrrrr}
+\toprule
+Country & Model & Total & Unparseable & Valid & Parse Rate \\
+\midrule
+India & Gemma-4-31B & 1595 & 117 & 1478 & 92.7\% \\
+India & Gemma-4-31B-Reasoning & 1595 & 95 & 1500 & 94.0\% \\
+India & Qwen3.5-9B-Reasoning & 1595 & 98 & 1497 & 93.9\% \\
+Turkey & Gemma-4-31B & 1925 & 106 & 1819 & 94.5\% \\
+Turkey & Gemma-4-31B-Reasoning & 1925 & 78 & 1847 & 96.0\% \\
+Turkey & Qwen3.5-9B-Reasoning & 1925 & 220 & 1705 & 88.6\%$^{*}$ \\
+Vietnam & Gemma-4-31B & 1980 & 101 & 1879 & 94.9\% \\
+Vietnam & Gemma-4-31B-Reasoning & 1980 & 85 & 1895 & 95.7\% \\
+Vietnam & Qwen3.5-9B-Reasoning & 1980 & 173 & 1807 & 91.3\% \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize $^{*}$ Parse rate below 90\%.}\\
+\end{tabular}
+\caption{Parse rates by model and country. 1,073 runs excluded (1.95\% of 55,000 total).}
+\label{tab:parse-rate}
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabularx}{\textwidth}{Xrrrrr}
+\toprule
+Comparison & Pairs & Flip & Acc. $\Delta$ & C2W & W2C \\
+\midrule
+EN → Mismatched language & 1000 & 15.6\% & $+0.7$ pp & 4.0\% & 4.7\% \\
+Local → Mismatched language & 999 & 14.8\% & $+0.6$ pp & 3.7\% & 4.3\% \\
+EN → Local paraphrase & 1000 & 14.6\% & $+0.3$ pp & 4.5\% & 4.8\% \\
+EN → Local language & 999 & 13.0\% & $+0.0$ pp & 4.0\% & 4.0\% \\
+EN → EN paraphrase & 1000 & 10.5\% & $+0.6$ pp & 2.0\% & 2.6\% \\
+Local → Local paraphrase & 999 & 9.9\% & $+0.2$ pp & 2.8\% & 3.0\% \\
+\bottomrule
+\end{tabularx}
+\caption{Language perturbation effects. EN=English, LOCAL=Hindi/Turkish/Vietnamese, MISMATCH=unrelated language.}
+\label{tab:language}
+\end{table*}

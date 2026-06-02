@@ -1,0 +1,65 @@
+UNPARSEABLE CASES REPORT
+=========================
+
+Country: India
+--------------
+  Model: Gemma-4-31B-NR
+    Total unparseable instances: 117
+    Unique scenario IDs affected (26): [761, 762, 763, 764, 765, 766, 767, 769, 1657, 1660, 1661, 1662, 1663, 1664, 1665, 1666, 1667, 2276, 2277, 2278, 2315, 2316, 2317, 2319, 2320, 2321]
+
+  Model: Gemma-4-31B-R
+    Total unparseable instances: 95
+    Unique scenario IDs affected (21): [761, 762, 764, 765, 766, 767, 769, 1657, 1660, 1661, 1662, 1665, 1666, 1667, 2276, 2277, 2315, 2316, 2317, 2319, 2321]
+
+  Model: Qwen3.5-9B-R
+    Total unparseable instances: 98
+    Unique scenario IDs affected (25): [761, 762, 763, 764, 766, 767, 768, 769, 1658, 1661, 1662, 1663, 1664, 1665, 1666, 1667, 2276, 2277, 2278, 2315, 2316, 2317, 2319, 2320, 2321]
+
+
+
+Country: Turkey
+---------------
+  Model: Gemma-4-31B-NR
+    Total unparseable instances: 106
+    Unique scenario IDs affected (30): [863, 864, 866, 867, 868, 869, 870, 872, 1759, 1760, 1761, 1762, 1763, 1764, 1765, 1766, 1767, 1768, 1769, 1770, 2238, 2241, 2242, 2272, 2273, 2274, 2275, 2280, 2281, 2282]
+
+  Model: Gemma-4-31B-R
+    Total unparseable instances: 78
+    Unique scenario IDs affected (23): [863, 866, 867, 872, 1759, 1761, 1762, 1763, 1764, 1765, 1768, 1769, 1770, 2217, 2238, 2241, 2242, 2272, 2273, 2274, 2275, 2280, 2281]
+
+  Model: Qwen3.5-9B-R
+    Total unparseable instances: 220
+    Unique scenario IDs affected (35): [861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 1759, 1760, 1761, 1762, 1763, 1764, 1765, 1766, 1767, 1768, 1769, 1770, 2217, 2238, 2241, 2242, 2272, 2273, 2274, 2275, 2280, 2281, 2282]
+
+
+
+Country: Vietnam
+----------------
+  Model: Gemma-4-31B-NR
+    Total unparseable instances: 101
+    Unique scenario IDs affected (28): [110, 112, 113, 115, 116, 117, 118, 119, 1015, 1016, 1017, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 2306, 2375, 2376, 2377, 2378, 2379, 2381, 2383, 2384, 2385]
+
+  Model: Gemma-4-31B-R
+    Total unparseable instances: 85
+    Unique scenario IDs affected (25): [109, 110, 112, 113, 114, 116, 117, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 2306, 2375, 2376, 2377, 2379, 2382, 2383, 2384, 2385]
+
+  Model: Qwen3.5-9B-R
+    Total unparseable instances: 173
+    Unique scenario IDs affected (36): [108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 2306, 2374, 2375, 2376, 2377, 2378, 2379, 2381, 2382, 2383, 2384, 2385]
+
+
+
+TOTAL UNPARSEABLE INSTANCES ACROSS ALL FILES: 1073
+
+SUMMARY TABLE
+=============
+Country          Model  Total Instances  Unique Scenarios
+  India Gemma-4-31B-NR              117                26
+  India  Gemma-4-31B-R               95                21
+  India   Qwen3.5-9B-R               98                25
+ Turkey Gemma-4-31B-NR              106                30
+ Turkey  Gemma-4-31B-R               78                23
+ Turkey   Qwen3.5-9B-R              220                35
+Vietnam Gemma-4-31B-NR              101                28
+Vietnam  Gemma-4-31B-R               85                25
+Vietnam   Qwen3.5-9B-R              173                36

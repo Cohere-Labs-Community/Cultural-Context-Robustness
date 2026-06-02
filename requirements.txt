@@ -1,0 +1,22 @@
+# Core Data & Statistical Processing
+pandas>=1.5.0
+numpy>=1.20.0
+scipy>=1.9.0
+statsmodels>=0.13.0
+openpyxl>=3.0.0
+
+# Plotting & Visualization
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# API Client for remote inference & label parsing
+cohere>=5.0.0
+
+# HuggingFace & PyTorch for local model evaluations
+torch>=2.0.0
+transformers>=4.38.0
+accelerate>=0.20.0
+
+# Utilities
+tqdm>=4.64.0
+jinja2>=3.0.0
